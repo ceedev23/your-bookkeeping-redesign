@@ -115,3 +115,9 @@ footer{border-top:1px solid var(--line);background:#eef1f8;padding:28px 0 20px;f
 @media (max-width: 760px) {
   .workspace-photo { height: 340px; }
 }
+
+.home-services-link { display: inline-flex; margin-top: 1.25rem; }
+#enquiry { scroll-margin-top: 8rem; }
+@media (min-width: 900px) {
+  .home-service-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
