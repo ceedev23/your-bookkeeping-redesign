@@ -13,7 +13,7 @@ footer{border-top:1px solid var(--line);background:#eef1f8;padding:28px 0 20px;f
 .button span,.text-link span,.header-phone span,.post h2 span,.menu span,.categories{font-family:system-ui,sans-serif}
 
 /* Give the original logo more space in the site header. */
-.header .bar{min-height:94px}
+.header .bar{height:auto;min-height:94px;padding-block:8px}
 .header .brand{gap:13px;font-size:18px}
 @media(max-width:760px){
   .header .bar{min-height:80px}
